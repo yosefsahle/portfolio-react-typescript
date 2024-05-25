@@ -325,3 +325,82 @@
         transform: translateY(0);
     }
 }
+
+@media only screen and (max-width: 800px){
+    .home-right{
+        display: none;
+    }
+    .home-left{
+        padding: 0vw 15px;
+    }
+
+    .home-about{
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+
+    .home-about-main{
+        flex-direction: column;
+    }
+    .home-about-left{
+        width: 80vw;
+    }
+
+    .home-about-contacts{
+        display: none;
+    }
+
+    .home-services{
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+
+    .home-services-list{
+        flex-direction: column;
+
+    }
+
+    .home-services-list>div>img{
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .home-services>a{
+        font-size: 10px;
+    }
+
+    .home-projects{
+        height: fit-content;
+        padding-bottom: 10px;
+    }
+
+    .home-projects-list{
+        flex-direction: column;
+    }
+
+    .home-projects-list>div{
+        padding: 10px;
+    }
+
+    .home-projects-list>div>img{
+        height: 30vh;
+        width: 80vw;
+    }
+
+    .home-projects>a{
+        font-size: 10px;
+    }
+
+    .home-about-right{
+        width: 80vw;
+        height: 50vh;
+
+    }
+
+    .home-about-right>img{
+        width: inherit;
+        height: inherit;
+        object-fit: contain;
+    }
+
+}

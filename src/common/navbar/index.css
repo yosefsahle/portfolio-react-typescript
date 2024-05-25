@@ -64,3 +64,18 @@
 .nav-bar-links>a>i:hover{
     color: #3B5BA5;
 }
+
+@media only screen and (max-width: 600px){
+
+.nav-bar-logo{
+    display: none;
+}
+
+.nav-bar-links{
+    display: none;
+}
+
+.nav-bar-menu>ul>li>a{
+    font-size: 10px;
+}
+}

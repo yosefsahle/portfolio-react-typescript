@@ -62,3 +62,30 @@
     height: 10px;
     background-color: rgb(63, 0, 163);
 }
+
+@media only screen and (max-width: 600px){
+    .about-info{
+        flex-direction: column;
+    }
+    .skills{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .skills-left{
+        width: 80vw;
+        padding: 20px 10px !important;
+    }
+
+    .skills-right{
+        width: 80vw;
+        padding: 20px 10px !important;
+    }
+
+    .skill-temp{
+        width: 75vw;
+    }
+    .skill-prog{
+        width: inherit;
+    }
+}
