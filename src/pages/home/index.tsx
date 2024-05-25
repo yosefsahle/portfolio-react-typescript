@@ -87,7 +87,6 @@ function Home(){
             </div>
             <Link to={'/projects'}>View All Projects</Link>
         </div>
-        <Footer />
 
         </>
     )

@@ -27,7 +27,7 @@ function Projects() {
             <div className="home-projects-list">
                 <div>
                     <img src="../assets/projects/agri-1.png" alt="" />
-                    <h3>ABSAF/Gospel in action project</h3>
+                    <h3>Agricultural Market Place</h3>
                     <p>Developed with React-Typescript</p>
                     <a href="https://web-front-end-coral.vercel.app/#vcard" target='_blank'>View Website</a>
                 </div>
