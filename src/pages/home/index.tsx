@@ -39,8 +39,8 @@ function Home(){
                 <i className="fa-solid fa-database"></i>
                 </div>
                 <div className="home-about-contacts">
-                <button>View Detail</button>
-                    <button><i className="fa-solid fa-download"></i> Download CV</button>
+                <Link to={'/about'} >View Detail</Link>
+                {/* <button><i className="fa-solid fa-download"></i> Download CV</button> */}
                 </div>
             </div>
             </div>
