@@ -119,7 +119,7 @@
     gap: 2vw;
 }
 
-.home-about-contacts>button{
+.home-about-contacts>a{
     width: 150px;
     height: 40px;
     background-color: rgb(63, 0, 163);
@@ -130,7 +130,7 @@
     outline: solid 2px rgb(63, 0, 163);
 }
 
-.home-about-contacts>button:hover{
+.home-about-contacts>a:hover{
     background-color: transparent;
     transition: ease-in all 0.2s;
     cursor: pointer;
@@ -190,7 +190,7 @@
     border-radius: 15px;
 }
 
-.home-services>button{
+.home-services>a{
     width: 30vw;
     height: 50px;
     border-radius: 10px;
@@ -207,9 +207,10 @@
     font-size: 17px;
     color: white;
     transition: ease-in-out all 0.2s;
+    text-decoration: none;
 }
 
-.home-services>button:hover{
+.home-services>a:hover{
     background-color: transparent;
     transition: ease-in-out all 0.2s;
     cursor: pointer;
@@ -285,7 +286,7 @@
 }
 
 
-.home-projects>button{
+.home-projects>a{
     width: 30vw;
     height: 50px;
     border-radius: 10px;
@@ -302,9 +303,10 @@
     font-size: 17px;
     color: white;
     transition: ease-in-out all 0.2s;
+    text-decoration: none;
 }
 
-.home-projects>button:hover{
+.home-projects>a:hover{
     background-color: transparent;
     transition: ease-in-out all 0.2s;
     cursor: pointer;

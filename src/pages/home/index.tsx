@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import Footer from '../../common/footer';
+import { Link } from 'react-router-dom';
 
 
 function Home(){
@@ -62,7 +63,7 @@ function Home(){
                     <h3>Android Development</h3>
                 </div>
             </div>
-            <button>View All Services</button>
+            <Link to={'/services'}>View All Services</Link>
         </div>
         <div className="home-breaker"></div>
         <div className="home-projects">
@@ -84,7 +85,7 @@ function Home(){
                     <a href="https://fiabhomes.com/" target='_blank'>View Website</a>
                 </div>
             </div>
-            <button>View All Projects</button>
+            <Link to={'/projects'}>View All Projects</Link>
         </div>
         <Footer />
 
