@@ -1,0 +1,11 @@
+.srvices{
+    padding: 10vw 10vw;
+    background-image: url('https://img.freepik.com/free-photo/background-gradient-lights_23-2149304985.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    z-index: -1;
+}
+

@@ -1,0 +1,64 @@
+.about{
+    position: relative;
+    overflow: hidden;
+    padding: 10vw;
+}
+
+.about::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-photo/background-gradient-lights_23-2149304985.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1; /* Place it behind the content */
+}
+
+.about-desc{
+    line-height: 1.5;
+}
+
+.about-info{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skills>div{
+    background-color: white;
+    padding: 1vw;
+    border-radius: 15px;
+}
+
+.skill-temp{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+}
+
+.skill-temp>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.skill-prog{
+    width: 35vw;
+    height: 10px;
+    background-color: gray;
+}
+
+.skill-prog>div{
+    height: 10px;
+    background-color: rgb(63, 0, 163);
+}
